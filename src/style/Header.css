@@ -1,0 +1,53 @@
+.header {
+  background-image: url('../assets/images/header.png');
+  overflow: hidden;
+  height: 85px;
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header-logo {
+  position: absolute; /* 使用绝对定位 */
+  top: 20px; /* 距离 .header 顶部的距离，根据需要调整 */
+  left: 100px; /* 距离 .header 左侧的距离，根据需要调整 */
+  width: 40px; /* 叠加图片的宽度，根据需要调整 */
+  height: 40px; /* 叠加图片的高度，根据需要调整 */
+  background-image: url('../assets/images/logo.png'); /* 叠加图片的路径 */
+  background-size: cover; /* 适应大小 */
+  /* 其他样式可以根据需要添加 */
+}
+.header-name {
+  display: block;
+  margin-left: 160px;
+  margin-top: 10px;
+  font-size: 40px;
+  letter-spacing: 40px;
+}
+.header-menu {
+  margin-left: 700px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.header-menu .ant-menu-item {
+  background-color: #a2d0ff; /* 设置导航项的背景颜色 */
+  font-size: 26px;
+  font-weight: 550;
+}
+.header-picture1 {
+  width: 30px;
+  height: 30px;
+}
+.header-picture2 {
+  width: 30px;
+  height: 30px;
+}
+.header-picture3 {
+  width: 30px;
+  height: 30px;
+}
+.header-picture4 {
+  width: 20px;
+  height: 20px;
+  margin-top: 50px;
+}

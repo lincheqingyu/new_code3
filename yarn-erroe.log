@@ -1,0 +1,72 @@
+Arguments: 
+  D:\Program Files\nodejs\node.exe D:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add antd
+
+PATH: 
+  C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Wolfram Research\WolframScript\;D:\huakeqishiSB\runtime\win64;D:\huakeqishiSB\bin;D:\jianmo2\runtime\win64;D:\jianmo2\bin;D:\Programs\nvm;D:\Program Files\nodejs;D:\Program Files\Git\cmd;C:\Users\l'z\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\l'z\AppData\Local\Programs\Python\Python311\;C:\Users\l'z\AppData\Local\Microsoft\WindowsApps;C:\Users\l'z\AppData\Local\Programs\Microsoft VS Code\bin;D:\Programs\nvm;D:\Program Files\nodejs
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.20.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, copyfile 'C:\Users\l'z\AppData\Local\Yarn\Cache\v6\npm-core-js-pure-3.35.1-f33ad7fdf9dddae260339a30e5f8363f5c49a3bc-integrity\node_modules\core-js-pure\modules\esnext.global-this.js' -> 'C:\Users\l'z\Documents\WeChat Files\wxid_t6s5q6tt3wco22\FileStorage\File\2024-01\new_code\node_modules\core-js-pure\modules\esnext.global-this.js'
+
+npm manifest: 
+  {
+    "name": "new_code",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@ant-design/icons": "^5.2.6",
+      "@craco/craco": "^7.1.0",
+      "@reduxjs/toolkit": "^2.0.1",
+      "@testing-library/jest-dom": "^5.17.0",
+      "@testing-library/react": "^13.4.0",
+      "@testing-library/user-event": "^13.5.0",
+      "antd": "^5.13.1",
+      "axios": "^1.6.5",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-redux": "^9.1.0",
+      "react-router-dom": "^6.21.2",
+      "react-scripts": "5.0.1",
+      "redux": "^5.0.1",
+      "sass": "^1.69.7",
+      "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+      "start": "craco start",
+      "build": "craco build",
+      "test": "craco test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

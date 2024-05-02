@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "sourceRoot": "",
+  "sources": [
+    "Register.scss"
+  ],
+  "names": [],
+  "mappings": ";AAAA;EACI;EACA;EACA;EACA;EACA",
+  "file": "Register.css"
+}
